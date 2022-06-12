@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Simple design</title>
+     <link rel="stylesheet" href="{% static 'style.css' %}" />
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+        </style>
+    </head>
+<body>
+<section>
+    <div class="logo-content">
+    <img src="{% static 'img/logo.jpg' %}" alt="logo"/>
+    </div>
+    <div class="right-content">
+    <h1>indenkunde kaaya <span>Managing director</span></h1>
+    <div>
+        <h2>Exact Manpower consulting ltd</h2>
+        <p class="paragraph-content">
+        3rd floor, The Arcade House, Plot No.72,<br/>
+        Mwai Kibaki Road, Mikocheni,<br/> 
+        P.O.Box 105061, Dar-Es-Salaam, Tanzania<br/>
+            <span>Mobile: </span>+255 715 800 430 <span>Email:</span>kaaya@exactmanpower.co.tz
+            <br/>
+            <span>Web: </span>www.exactmanpower.co.tz <span> . </span>ekazi.co.tz
+        </p>
+        <div class="content-bottom">
+        <div>
+            <img src="{% static 'img/log.png' %}" alt="log1">
+            <img src="{% static 'img/log.png' %}" alt="log1">
+            <img src="{% static 'img/log.png' %}" alt="log1">
+            </div>
+            <p>exactmanpower</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
